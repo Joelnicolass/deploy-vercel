@@ -30,6 +30,8 @@ const App = () => {
   }, [inView]);
 
   console.log(import.meta.env.VITE_APP_TEST);
+  // mostrar version desde package.json
+  console.log(import.meta.env.VITE_APP_VERSION);
 
   return (
     <main
